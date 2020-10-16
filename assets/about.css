@@ -1,0 +1,34 @@
+.section-title-black h3 {
+    color: #000!important;
+}
+
+.about-img img {
+    width: 100%;
+    height: auto;
+}
+
+.about-wrapper {
+    position: relative;
+    padding: 35px 0;
+}
+.about-wrapper::before {
+    content: "";
+    background-image: url(img/line1.png);
+    position: absolute;
+    width: 100%;
+    height: 11px;
+    top: -22px;
+    z-index: 500;
+    background-repeat: repeat-x;
+}
+
+.about-wrapper::after {
+    content: "";
+    background-image: url(img/line1.png);
+    position: absolute;
+    width: 100%;
+    height: 11px;
+    z-index: 500;
+    background-repeat: repeat-x;
+    bottom: 3px;
+}

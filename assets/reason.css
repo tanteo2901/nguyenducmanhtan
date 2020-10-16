@@ -1,0 +1,21 @@
+.reason-wrapper {
+    padding-top: 59px;
+    padding-bottom: 59px;
+    background-color: rgb(255, 195, 0);
+}
+
+.reason-icon img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.reason-content h3 {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.reason-content p {
+    display: block;
+    font-size: .9rem;
+}

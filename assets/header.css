@@ -1,0 +1,142 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+
+.bg-img {
+    background-image: url(img/vec.jpg);
+    height: 83px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+a.navbar-brand img {
+    width: 230px;
+}
+
+nav.navbar {
+    background: transparent!important;
+}
+
+.header-mask {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.91));
+}
+
+a.nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffde00!important;
+    font-weight: 500;
+}
+
+.mega-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+.dropdown:hover > .dropdown-menu,
+.dropdown:hover>.mega-menu {
+    display: block!important;
+}
+
+li.nav-item {
+    border-right: 1px solid #524c19;
+    padding: 14px 0;
+}
+
+.mega-menu a,
+.dropdown-menu a {
+    color: #f2c100;
+    font-size: .9rem;
+    border-bottom: 1px solid #5a4a0c6b;
+    padding: 7px 10px;
+}
+
+.mega-menu a {
+    color: #fcf6de;
+}
+.mega-menu a:last-child ,
+.dropdown-menu a:last-child {
+    border-bottom: none;
+}
+.mega-menu,
+.dropdown-menu {
+    border: 1px solid #f2c100;
+    background: #000;
+    color: #f2c100;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.dropdown-item:hover {
+    background: none;
+    color: #9b7c01;
+}
+
+.mega-menu .row {
+    width: 750px;
+}
+
+.mega-menu {
+    margin-left: -100%;
+}
+
+a.dropdown-item.dititle {
+    color: #f2c100;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-toggler-icon {
+    color: #fff;
+    filter: brightness(0) invert(1);
+}
+
+@media (max-width:720px) {
+    li.nav-item {
+        border-right: 0;
+        padding: 0;
+    }
+    .dropdown:hover>.mega-menu {
+        display: contents!important;
+    }
+    .effect-sparkle {
+        display: none;
+    }
+    .gra-fill {
+        display: none;
+    }
+
+    .slider-wrapper {
+        height: auto!important;
+    }
+    .banner-wrapper {
+        margin-top: 0!important;
+    }
+    .cform-wrapper, .brand-menu {
+        display: none;
+    }
+    .web-info {
+        background: transparent;
+    }
+    
+}
